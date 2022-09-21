@@ -1,0 +1,33 @@
+/* Seteo */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Body */
+
+body {
+  margin-top: 55px;
+}
+.contenedor {
+  border: solid 2px;
+  margin: auto;
+  height: 450px;
+  width: 450px;
+}
+.sub-contenedor {
+  padding-top: 25px;
+}
+.sub-contenedor h1 {
+    margin: 15px;
+    padding: 15px;
+    
+  }
+.conversion{
+    border: solid 2px ;
+    height: 35px;
+    width: 35px;
+}
+.btn-btn{
+    margin: 50px;
+}

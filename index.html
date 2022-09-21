@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="jugar.js"></script>
+    <link rel="stylesheet" href="stilye.css" />
     <title>Termometro Coex 2022</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="sub-contenedor">
+        <h1>Convertidor de temperatura</h1>
+        <label for="temp">temperatura Farenheit</label>
+        <input type="text" id="temp" name="temp" value="" /><br /><br />
+        <div class="conversion" id="calcular"></div>
+        <button class="btn-btn" id="calculo">Convertir</button>
+      </div>
+    </div>
+  </body>
 </html>
