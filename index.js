@@ -7,4 +7,13 @@ function convertir() {
   document.getElementById("calcular").innerHTML = `<h2>${c}</h2>`;
   document.getElementById("spin").style.height=c+'px'
 }
-calculo.addEventListener("click", convertir);
+
+
+function reiniciarContenido() {
+  document.getElementById("calculo").value=""
+  document.getElementById("temp").value=""
+  document.getElementById("calcular").innerHTML=``
+  document.getElementById("spin").style.height=0
+}
+let reinicio = document.getElementById("reiniciar")
+reinicio.addEventListener("click",reiniciarContenido)
