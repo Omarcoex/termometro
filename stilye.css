@@ -8,55 +8,76 @@
 
 body {
   margin-top: 55px;
+  background-image: url(./nubes1.jpg);
+  color: white;
+  /* padding: 125px; */
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
 }
 .contenedor {
-  border: solid 2px;
+  border: solid 3px white;
   margin: auto;
   height: 450px;
   width: 450px;
   text-align: center;
+  padding-top: 25px;
+}
+input{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
 }
 .sub-contenedor {
   padding-top: 25px;
   display: flex;
 }
-.iz{
+.iz {
   width: 50%;
 }
-#temp{
+#temp {
   width: 60%;
   height: 35px;
 }
-.de{
+.de {
   width: 50%;
 }
 .sub-contenedor h1 {
-    margin: 15px;
-    padding: 15px;
-    
-    
-  }
-.conversion{
-    border: solid 2px ;
-    height: 35px;
-    width: 60%;
-    margin: auto;
-
-  }
-.termometro{
+  margin: 15px;
+  padding: 15px;
+}
+.conversion {
+  border: solid 2px;
+  height: 35px;
+  width: 60%;
+  margin: auto;
+}
+.termometro {
   border: solid 1px;
   height: 200px;
   width: 50px;
-  transform:rotate(180deg);
+  transform: rotate(180deg);
   margin: auto;
-
 }
-#spin{
+label span {
+  font-size: 25px;
+}
+#spin {
   background-color: rgb(255, 0, 0);
-  transform:rotate(180deg);
+  transform: rotate(180deg);
   height: 15px;
-  
 }
-.btn-btn{
-    margin: 50px;
+.btn-btn {
+  /* margin: 50px; */
+  margin-top: 25px;
+  height: 45px;
+  width: 75px;
+  gap: 25px;
+  background-color: rgba(0, 238, 255, 0.874);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn-btn:hover {
+  background-color: rgb(213, 212, 212);
 }
